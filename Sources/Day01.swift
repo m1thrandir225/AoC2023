@@ -61,12 +61,12 @@ struct Day01: AdventDay {
     }
     
     
-    func part1() async throws -> Int {
+    func part1()  throws -> Int {
         //Only have the second part
         return 0;
     }
     
-    func part2() async throws -> Int {
+    func part2() throws -> Int {
         var result = 0;
         for word in entities {
             var charArray: [Character] = [];
@@ -107,6 +107,4 @@ struct Day01: AdventDay {
         }
         return result;
     }
-    
-    
 }

@@ -25,7 +25,7 @@ struct Day02: AdventDay {
         "blue": 14,
     ]
     
-    func part1() async throws -> Int {
+    func part1() throws -> Int {
         var sum = 0;
         
         for game in entities {
@@ -62,7 +62,7 @@ struct Day02: AdventDay {
         return sum;
     }
     
-    func part2() async throws -> Int {
+    func part2() throws -> Int {
         var sum = 0;
         
         for game in entities {

@@ -42,7 +42,7 @@ struct Day04: AdventDay {
         return lines.map { ScratchCard($0)}
     }
     
-    func part1() async throws -> Int {
+    func part1() throws -> Int {
         
         var sum = 0;
         
@@ -54,7 +54,7 @@ struct Day04: AdventDay {
     
     
 
-    func part2() async throws -> Int {
+    func part2() throws -> Int {
         var copies = [Int](repeating: 1, count: entities.count + 1)
         print(copies);
         copies[0] = 0;

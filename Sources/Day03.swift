@@ -17,7 +17,7 @@ struct Day03: AdventDay {
     }
     
     //ABSOLUTELY DOGSHIT SOLUTION :D
-    func part1() async throws -> Int {
+    func part1() throws -> Int {
         
         var cs = Set<[Int]>();
         var ns: [Int] = [];
@@ -60,7 +60,7 @@ struct Day03: AdventDay {
     
     //ANOTHER ABSOLUTE DOGSHIT SOLUTION :DDDDDDDDDDDDDDDDD
     
-    func part2() async throws -> Int {
+    func part2()  throws -> Int {
         
         var total: Int = 0;
         for (r, row) in entities.enumerated() {
